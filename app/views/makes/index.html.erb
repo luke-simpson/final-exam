@@ -7,10 +7,13 @@
 
 <!-- display the list of makes here
      you do not need to use a partial -->
+  
+  <%= render @makes %>
 
 </table>
 
 <br />
 
 <% # create a link the "new" make page %>
+<%= link_to "New", makes_new_path %>
 
